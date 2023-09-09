@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 417.0, 115.0, 1129.0, 1290.0 ],
+		"rect" : [ 477.0, 85.0, 1027.0, 1265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,22 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontsize" : 18.0,
 					"id" : "obj-65",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1014.685173392295837, 176.296290516853333, 75.0, 20.0 ],
+					"patching_rect" : [ 1005.685173392295837, 134.296290516853333, 110.0, 46.0 ],
 					"text" : "Output Filter"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontsize" : 18.0,
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 649.703701794147491, 176.296290516853333, 113.0, 20.0 ],
+					"patching_rect" : [ 650.703701794147491, 134.296290516853333, 168.0, 46.0 ],
 					"text" : "Feedback loop filter"
 				}
 
@@ -72,7 +78,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 960.596194207668304, 281.0, 58.0, 23.0 ],
-					"sig" : 4884.0
+					"sig" : 4786.0
 				}
 
 			}
@@ -105,7 +111,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 1102.77415257692337, 281.0, 58.0, 23.0 ],
-					"sig" : 0.867
+					"sig" : 1.243
 				}
 
 			}
@@ -149,7 +155,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 644.114722609519958, 281.0, 58.0, 23.0 ],
-					"sig" : 9006.0
+					"sig" : 4618.0
 				}
 
 			}
@@ -182,7 +188,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 786.292680978775024, 281.0, 58.0, 23.0 ],
-					"sig" : 0.585
+					"sig" : 0.663
 				}
 
 			}
@@ -2088,26 +2094,6 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "KarplusStrongAlgor.gendsp",
-				"bootpath" : "~/Documents/Max 8/User Patcher/GenKarplusStrong/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "windowed-fft~.maxpat",
-				"bootpath" : "C74:/help/msp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
 		"autosave" : 0
 	}
 
