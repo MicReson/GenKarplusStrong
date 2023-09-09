@@ -1,13 +1,10 @@
-# Karplus Strong Synthesis in MAX with GEN (WIP)
+# Karplus Strong Syntheziser using GEN~
 
-Karplus strong synthesizer using max GEN~, for a more efficient synthesizer and with its own respective effects for using during compositions.
-
-It can accept midi keyboard in but also could be use as a generative instruments (still under development)
+A karplus strong synthesizer instrument using GEN~.
+It could be used as an instrument or a generative patch.
 
 ## TODO
 
-* Filter section on the delay line of the karplus strong synthesis tecnique.
-* Reverb send for ambience.
-* Pitch control from the midi controller.
-* Midi CC control to fine tune pitch and mod whell for bending pitch.
-* Generative pitch section alternative from the midi keyboard.
+* Low-pass filter on the karplus strong algorithm.
+* Setup midi keyboard in with pitch.
+* Midi CC mod wheel.
